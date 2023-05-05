@@ -1,0 +1,8 @@
+<mat-sidenav-container class="example-container" (backdropClick)="control(mainViewparam)">
+    <mat-sidenav #sidenav>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+        <p><button mat-button (click)="sidenav.toggle()">sidenav.toggle()</button></p>
+    </mat-sidenav-content>
+</mat-sidenav-container>
